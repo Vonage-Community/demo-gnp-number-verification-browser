@@ -1,0 +1,30 @@
+{
+  "name": "demo-gnp-number-verification-browser",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "homepage": "https://github.com/Vonage-Community/demo-gnp-number-verification-browser#readme",
+  "bugs": {
+    "url": "https://github.com/Vonage-Community/demo-gnp-number-verification-browser/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vonage-Community/demo-gnp-number-verification-browser.git"
+  },
+  "license": "Apache-2.0",
+  "contributors": [
+    {
+      "name": "Chuck MANCHUCK Reeves",
+      "url": "https://github.com/manchuck"
+    }
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@vonage/network-number-verification": "1.0.1-6",
+    "express": "4.18.2",
+    "uuid": "9.0.1"
+  }
+}
